@@ -1,8 +1,12 @@
 # HTTP Intercept
+
+## Introduction
 An HTTP proxy server written in typescript to experiment with intercepting insecure http connections.
 The program does not support https connections (yet), but will probably support them in the future.
 
-**Important:** Requires Deno to run the server
+## Important
+This project was created for experimental and educational purposes only and
+the author(s) / maintainer(s) will not be responsible for any misuse of this program.
 
 ## How-to-use
 ### Running / building the server
@@ -25,3 +29,4 @@ On a client computer / application, set the http proxy to device's local ip (if 
 
 ## Sample run
 ![sample-run-ss](./extras/run.png)
+(**Note:** The urls shown in the above screenshot are for illustrative purposes only!)
