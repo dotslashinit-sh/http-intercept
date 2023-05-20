@@ -1,0 +1,7 @@
+# Build files (unstable as of deno 1.33.4)
+# and other stuff
+*.exe
+
+# Portable browser (Palemoon) configured to use the proxy
+# for development and debugging purposes.
+browser/*
