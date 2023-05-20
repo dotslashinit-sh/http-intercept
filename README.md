@@ -2,6 +2,8 @@
 An HTTP proxy server written in typescript to experiment with intercepting insecure http connections.
 The program does not support https connections (yet), but will probably support them in the future.
 
+**Important:** Requires Deno to run the server
+
 ## How-to-use
 ### Running / building the server
 1) Running
@@ -20,3 +22,6 @@ The program does not support https connections (yet), but will probably support 
   
 ### Intercepting traffic
 On a client computer / application, set the http proxy to device's local ip (if on a network) or `localhost` (if the server runs on the client).
+
+## Sample run
+![sample-run-ss](./extras/run.png)
